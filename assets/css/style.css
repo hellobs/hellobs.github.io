@@ -66,8 +66,12 @@ em{font-family:var(--serif);font-style:italic;color:var(--accent)}
 .hero-eyebrow{font-family:var(--mono);letter-spacing:.28em;font-size:.8rem;color:var(--accent-2);margin-bottom:22px;display:flex;align-items:center;gap:14px}
 .hero-eyebrow::before{content:"";width:34px;height:1px;background:var(--accent);display:inline-block}
 .hero-name{font-family:var(--serif);font-weight:600;font-size:clamp(3rem,9vw,7.5rem);line-height:1.02;letter-spacing:.01em}
-.hero-name span{display:block;font-family:var(--serif);font-style:italic;font-weight:400;
+.hero-name .name-zh{display:inline}
+.hero-name .name-en{display:block;font-family:var(--serif);font-style:italic;font-weight:400;
   font-size:.32em;color:transparent;-webkit-text-stroke:1px var(--ink-soft);margin-top:.25em}
+[data-lang="en"] .hero-name .name-zh{display:none}
+[data-lang="en"] .hero-name .name-en{display:inline;font-style:normal;font-weight:600;font-size:inherit;
+  color:inherit;-webkit-text-stroke:none;margin-top:0}
 .hero-line{max-width:16em;margin-top:26px;font-size:clamp(1.25rem,2.6vw,2rem);font-weight:500}
 .hero-line em{margin:0 .12em}
 .hero-line-2{margin-top:14px;max-width:34em;font-size:1.02rem;color:var(--ink-soft);font-weight:300}

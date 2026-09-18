@@ -5,6 +5,7 @@
   /* ---------- 双语词典 ---------- */
   var I18N = {
     zh: {
+      title:"张子睿 · 工业设计 × 计算机科学 作品集",
       nav:{about:"关于",works:"作品",projects:"项目",skills:"技能",honors:"活动",contact:"联系"},
       hero:{
         eyebrow:"华南理工大学 · 工业设计实验班",
@@ -28,8 +29,8 @@
       p1:{year:"2026 · 正式启动",ongoing:"刚启动",title:"无人农场 · 世界模型与智能体（MetaEvo）",role:"MetaEvo 团队 · 项目成员",desc:"项目于近期正式启动，当前处于初始探索与仿真底座搭建阶段：以 UE 搭建高逼真、符合物理规律的 3D 仿真场景，设计 API 接口输出风速、偏移度等反馈供智能体读取；分阶段推进「仿真 → 世界模型 → 智能体训练」，目标支撑顶会论文产出。"},
       p2:{year:"2026 – 在研",ongoing:"在研",title:"Provenance · AI 价值形成多智能体仿真平台",role:"HAIDE Lab · 项目成员",desc:"开发多智能体仿真平台，通过可溯源、可配置的多方决策，直观可视化 AI 价值（价值观）的形成与演化过程，支撑 AI 治理研究。"},
       p3:{year:"2026 – 在研",ongoing:"在研",title:"MAVIS · 可控可解释多智能体仿真框架",role:"HAIDE Lab · 框架开发",desc:"构建可控、可解释的多智能体仿真框架：建模复杂人机交互、追踪智能体决策轨迹，并为 AI 治理场景提供可解释的评估支持。"},
-      p4:{year:"2026.3 – 进行中",ongoing:"进行中",title:"SRP · 低空无人机三维仿真训练平台",role:"设计学院 SRP 项目 · 核心开发者",desc:"基于 Unity 从零搭建低空无人机三维仿真训练平台，借助 AI 工具完成飞控、搜索救援、武器发射等模块；引入桥接等设计模式组织架构，并负责团队 Git 仓库搭建与维护。"},
-      p5:{year:"2026.7 – 进行中",ongoing:"进行中",title:"Global Trust Challenge · 全球数字可信挑战赛",role:"原型开发与 Unity 可视化",desc:"Generative Agents 多智能体文献研读，同步学习 FastAPI 后端，调研仿真平台与后端通信方案与完整交互仿真场景。"},
+      p4:{year:"2026.3 – 进行中",ongoing:"进行中",title:"SRP · 低空无人机三维仿真训练平台",role:"设计学院 SRP 项目 · 核心开发者",desc:"基于 Unity 从零搭建低空无人机三维仿真训练平台，借助 AI 工具完成飞控、搜索救援、武器发射等模块；引入桥接等设计模式组织架构，并负责团队 Git 仓库搭建与维护。",tech:"Unity · C# · 设计模式 · Git · GitHub"},
+      p5:{year:"2026.7 – 进行中",ongoing:"进行中",title:"Global Trust Challenge · 全球数字可信挑战赛",role:"原型开发与 Unity 可视化",desc:"Generative Agents 多智能体文献研读，同步学习 FastAPI 后端，调研仿真平台与后端通信方案与完整交互仿真场景。",tech:"Unity · Generative Agents · FastAPI · 通信架构"},
       skills:{
         title:"技能栈 · Skills",
         s1:{t:"仿真与建模",d:"Unity 全流程开发与三维场景搭建；多智能体仿真平台开发；基础造型与空间感知，SolidWorks 建模。"},
@@ -51,6 +52,7 @@
       modal:{back:"返回作品"}
     },
     en: {
+      title:"Zirui Zhang · Industrial Design × Computer Science — Portfolio",
       nav:{about:"About",works:"Works",projects:"Projects",skills:"Skills",honors:"Activities",contact:"Contact"},
       hero:{
         eyebrow:"South China Univ. of Technology · Industrial Design",
@@ -74,8 +76,8 @@
       p1:{year:"2026 · Just kicked off",ongoing:"Just Launched",title:"Unmanned Farm · World Model & Intelligent Agent (MetaEvo)",role:"MetaEvo Team · Project Member",desc:"The project kicked off recently and is now in its early exploration and simulation-foundation phase — building high-fidelity, physics-accurate 3D scenes in UE and designing API interfaces that stream wind-speed and drift feedback to agents — progressing through simulation › world model › agent training, targeting top-tier conference papers."},
       p2:{year:"2026 – Ongoing",ongoing:"Ongoing",title:"Provenance · AI Value Formation Simulation",role:"HAIDE Lab · Project Member",desc:"Building a multi-agent simulation platform that visualizes the formation and evolution of AI values through traceable, configurable multi-stakeholder decision-making — supporting AI-governance research."},
       p3:{year:"2026 – Ongoing",ongoing:"Ongoing",title:"MAVIS · Controllable Multi-Agent Framework",role:"HAIDE Lab · Framework Contributor",desc:"Developing a controllable and interpretable multi-agent simulation framework that models complex human-AI interactions, traces agent decisions, and supports interpretable evaluation of AI-governance scenarios."},
-      p4:{year:"2026.3 – Ongoing",ongoing:"Ongoing",title:"SRP · Low-Altitude Drone Simulation Platform",role:"Core Developer · School of Design SRP",desc:"Built a 3D drone simulation training platform from scratch in Unity, prototyping flight control, search & rescue, and weapon modules with AI-assisted development; applied bridge and other design patterns to architecture and set up the team Git repository."},
-      p5:{year:"2026.7 – Ongoing",ongoing:"Ongoing",title:"Global Trust Challenge",role:"Prototype + Unity Visualization",desc:"Researching Generative Agents multi-agent literature, learning the FastAPI backend, and investigating simulation-backend communication and full interactive scenarios."},
+      p4:{year:"2026.3 – Ongoing",ongoing:"Ongoing",title:"SRP · Low-Altitude Drone Simulation Platform",role:"Core Developer · School of Design SRP",desc:"Built a 3D drone simulation training platform from scratch in Unity, prototyping flight control, search & rescue, and weapon modules with AI-assisted development; applied bridge and other design patterns to architecture and set up the team Git repository.",tech:"Unity · C# · Design Patterns · Git · GitHub"},
+      p5:{year:"2026.7 – Ongoing",ongoing:"Ongoing",title:"Global Trust Challenge",role:"Prototype + Unity Visualization",desc:"Researching Generative Agents multi-agent literature, learning the FastAPI backend, and investigating simulation-backend communication and full interactive scenarios.",tech:"Unity · Generative Agents · FastAPI · Communication Architecture"},
       skills:{
         title:"Skills",
         s1:{t:"Simulation & Modeling",d:"Full-cycle Unity development and 3D scene building; multi-agent simulation platform development; SolidWorks modeling and form intuition."},
@@ -111,7 +113,7 @@
       en:{cat:"Visual Design",title:"Design Manual",sub:"Layout · grid · brand visual",tech:"Grid system · typography · brand",desc:"A foundational visual design manual covering layout, grid systems, typography and color specification — the methodology behind brand visual execution."}}
   ];
 
-  var lang = localStorage.getItem("portfolio-lang") || "en";
+  var lang = localStorage.getItem("portfolio-lang") || "zh";
   setLang(lang);
 
   document.getElementById("langToggle").addEventListener("click", function(){
@@ -124,8 +126,9 @@
     lang = l;
     document.documentElement.lang = (l === "zh") ? "zh-CN" : "en";
     document.documentElement.setAttribute("data-lang", l);
-    document.getElementById("langToggle").textContent = (l === "zh") ? "EN" : "中文";
+    document.getElementById("langToggle").textContent = (l === "zh") ? "EN" : "ZH";
     var d = I18N[l];
+    document.title = d.title;
 
     /* 普通 data-i18n 节点 */
     document.querySelectorAll("[data-i18n]").forEach(function(el){
