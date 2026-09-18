@@ -20,7 +20,6 @@
         tMajor:"主修", major:"工业设计 · 信息与交互设计",
         tMinor:"辅修", minor:"计算机科学与技术",
         tResearch:"科研", research:"MetaEvo Lab 无人农场世界模型 × HAIDE Lab 多智能体仿真",
-        resume:"下载简历 PDF",
         c1n:"信息与交互", c1t:"工业设计实验班主方向",
         c2n:"技术实现", c2t:"计算机科学辅修打磨代码能力",
         c3n:"研究驱动", c3t:"从造型、交互到算法与部署"
@@ -67,7 +66,6 @@
         tMajor:"Major", major:"Industrial Design · Info & Interaction",
         tMinor:"Minor", minor:"Computer Science & Technology",
         tResearch:"Research", research:"MetaEvo Lab unmanned-farm world model × HAIDE Lab multi-agent simulation",
-        resume:"Download Resume (PDF)",
         c1n:"Info & Interaction", c1t:"Core track of the experimental class",
         c2n:"Technical Craft", c2t:"CS minor sharpens coding ability",
         c3n:"Research-driven", c3t:"From form and UX to algorithms and deployment"
@@ -203,4 +201,15 @@
 
   /* ---------- year ---------- */
   document.getElementById("year").textContent = new Date().getFullYear();
+
+  /* ---------- scroll reveal ---------- */
+  var revealTargets = document.querySelectorAll(".section, footer");
+  if ("IntersectionObserver" in window){
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); } });
+    }, {threshold:.12});
+    revealTargets.forEach(function(s){ s.classList.add("reveal"); io.observe(s); });
+  } else {
+    revealTargets.forEach(function(s){ s.classList.add("reveal","in"); });
+  }
 })();
