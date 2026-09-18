@@ -111,7 +111,7 @@
       en:{cat:"Visual Design",title:"Design Manual",sub:"Layout · grid · brand visual",tech:"Grid system · typography · brand",desc:"A foundational visual design manual covering layout, grid systems, typography and color specification — the methodology behind brand visual execution."}}
   ];
 
-  var lang = localStorage.getItem("portfolio-lang") || "zh";
+  var lang = localStorage.getItem("portfolio-lang") || "en";
   setLang(lang);
 
   document.getElementById("langToggle").addEventListener("click", function(){
