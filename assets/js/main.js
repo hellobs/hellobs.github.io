@@ -25,6 +25,7 @@
         c2n:"技术实现", c2t:"计算机科学辅修打磨代码能力",
         c3n:"研究驱动", c3t:"从造型、交互到算法与部署"
       },
+      projects:{title:"项目经历 · Projects"},
       works:{title:"设计类作品 · Design Works"},
       p1:{year:"2026 · 正式启动",ongoing:"刚启动",title:"无人农场 · 世界模型与智能体（MetaEvo）",role:"MetaEvo 团队 · 项目成员",desc:"项目于近期正式启动，当前处于初始探索与仿真底座搭建阶段：以 UE 搭建高逼真、符合物理规律的 3D 仿真场景，设计 API 接口输出风速、偏移度等反馈供智能体读取；分阶段推进「仿真 → 世界模型 → 智能体训练」，目标支撑顶会论文产出。"},
       p2:{year:"2026 – 在研",ongoing:"在研",title:"Provenance · AI 价值形成多智能体仿真平台",role:"HAIDE Lab · 项目成员",desc:"开发多智能体仿真平台，通过可溯源、可配置的多方决策，直观可视化 AI 价值（价值观）的形成与演化过程，支撑 AI 治理研究。"},
@@ -72,6 +73,7 @@
         c2n:"Technical Craft", c2t:"CS minor sharpens coding ability",
         c3n:"Research-driven", c3t:"From form and UX to algorithms and deployment"
       },
+      projects:{title:"Projects"},
       works:{title:"Design Works"},
       p1:{year:"2026 · Just kicked off",ongoing:"Just Launched",title:"Unmanned Farm · World Model & Intelligent Agent (MetaEvo)",role:"MetaEvo Team · Project Member",desc:"The project kicked off recently and is now in its early exploration and simulation-foundation phase — building high-fidelity, physics-accurate 3D scenes in UE and designing API interfaces that stream wind-speed and drift feedback to agents — progressing through simulation › world model › agent training, targeting top-tier conference papers."},
       p2:{year:"2026 – Ongoing",ongoing:"Ongoing",title:"Provenance · AI Value Formation Simulation",role:"HAIDE Lab · Project Member",desc:"Building a multi-agent simulation platform that visualizes the formation and evolution of AI values through traceable, configurable multi-stakeholder decision-making — supporting AI-governance research."},
