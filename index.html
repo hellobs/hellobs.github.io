@@ -23,7 +23,6 @@
     <a href="#about" data-i18n="nav.about">关于</a>
     <a href="#projects" data-i18n="nav.projects">项目</a>
     <a href="#skills" data-i18n="nav.skills">技能</a>
-    <a href="#works" data-i18n="nav.works">作品</a>
     <a href="#honors" data-i18n="nav.honors">活动</a>
     <a href="#contact" data-i18n="nav.contact">联系</a>
   </nav>
@@ -42,7 +41,6 @@
       <p class="hero-line hero-line-1" data-i18n="hero.tag">设计思维 <em>Design</em> × 技术实现 <em>Code</em></p>
       <p class="hero-line hero-line-2" data-i18n="hero.desc">用交互设计感知问题，用工程与算法构建答案。信息与交互设计 + 计算机科学复合背景，深耕仿真、视觉与智能算法。</p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="#works" data-i18n="hero.ctaView">浏览作品</a>
         <a class="btn btn-ghost" href="#contact" data-i18n="hero.ctaContact">联系我</a>
       </div>
       <div class="hero-metrics">
@@ -154,19 +152,10 @@
     </div>
   </section>
 
-  <!-- ======== WORKS ======== -->
-  <section class="section alt" id="works">
-    <div class="section-head">
-      <span class="sec-no">04</span>
-      <h2 data-i18n="works.title">设计类作品 · Design Works</h2>
-    </div>
-    <div class="works-grid" id="worksGrid"><!-- JS 渲染 --></div>
-  </section>
-
   <!-- ======== HONORS ======== -->
   <section class="section" id="honors">
     <div class="section-head">
-      <span class="sec-no">05</span>
+      <span class="sec-no">04</span>
       <h2 data-i18n="honors.title">竞赛与活动 · Activities</h2>
     </div>
     <ul class="honors-list">
@@ -181,7 +170,7 @@
 <!-- ======== CONTACT / FOOTER ======== -->
 <footer class="section footer" id="contact">
   <div class="section-head">
-    <span class="sec-no">06</span>
+    <span class="sec-no">05</span>
     <h2 data-i18n="contact.title">联系 · Contact</h2>
   </div>
   <div class="contact-grid">
@@ -192,20 +181,6 @@
   </div>
   <p class="copy">© <span id="year"></span> Zirui Zhang — Design Mind × Code.</p>
 </footer>
-
-<div class="modal-backdrop" id="modalBackdrop" hidden>
-  <div class="modal" role="dialog" aria-modal="true">
-    <button class="modal-close" id="modalClose" type="button" aria-label="close">×</button>
-    <div class="modal-media"><img src="" alt="" id="modalImg"></div>
-    <div class="modal-body">
-      <span class="modal-cat" id="modalCat"></span>
-      <h3 id="modalTitle"></h3>
-      <p id="modalDesc"></p>
-      <p class="p-tech" id="modalTech"></p>
-      <a id="modalLink" class="btn btn-ghost btn-sm" href="#works" data-i18n="modal.back">返回作品</a>
-    </div>
-  </div>
-</div>
 
 <script src="assets/js/main.js"></script>
 </body>

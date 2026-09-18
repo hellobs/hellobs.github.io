@@ -6,13 +6,13 @@
   var I18N = {
     zh: {
       title:"张子睿 · 工业设计 × 计算机科学 作品集",
-      nav:{about:"关于",works:"作品",projects:"项目",skills:"技能",honors:"活动",contact:"联系"},
+      nav:{about:"关于",projects:"项目",skills:"技能",honors:"活动",contact:"联系"},
       hero:{
         eyebrow:"华南理工大学 · 工业设计实验班",
         nameEn:"Zirui Zhang",
         tag:"设计思维 <em>Design</em> × 技术实现 <em>Code</em>",
         desc:"用交互设计感知问题，用工程与算法构建答案。MetaEvo 无人农场世界模型项目成员，并深入 HAIDE Lab 多智能体仿真与人机交互课题。",
-        ctaView:"浏览作品", ctaContact:"联系我",
+        ctaContact:"联系我",
         m1n:"MetaEvo", m1l:"无人农场世界模型 · 项目成员", m2n:"HAIDE", m2l:"HAIDE Lab 多智能体课题", m3n:"SCUT", m3l:"华南理工大学"
       },
       about:{
@@ -26,7 +26,6 @@
         c3n:"研究驱动", c3t:"从造型、交互到算法与部署"
       },
       projects:{title:"项目经历 · Projects"},
-      works:{title:"设计类作品 · Design Works"},
       p1:{year:"2026 · 正式启动",ongoing:"刚启动",title:"无人农场 · 世界模型与智能体（MetaEvo）",role:"MetaEvo 团队 · 项目成员",desc:"项目于近期正式启动，当前处于初始探索与仿真底座搭建阶段：以 UE 搭建高逼真、符合物理规律的 3D 仿真场景，设计 API 接口输出风速、偏移度等反馈供智能体读取；分阶段推进「仿真 → 世界模型 → 智能体训练」，目标支撑顶会论文产出。"},
       p2:{year:"2026 – 在研",ongoing:"在研",title:"Provenance · AI 价值形成多智能体仿真平台",role:"HAIDE Lab · 项目成员",desc:"开发多智能体仿真平台，通过可溯源、可配置的多方决策，直观可视化 AI 价值（价值观）的形成与演化过程，支撑 AI 治理研究。"},
       p3:{year:"2026 – 在研",ongoing:"在研",title:"MAVIS · 可控可解释多智能体仿真框架",role:"HAIDE Lab · 框架开发",desc:"构建可控、可解释的多智能体仿真框架：建模复杂人机交互、追踪智能体决策轨迹，并为 AI 治理场景提供可解释的评估支持。"},
@@ -49,18 +48,17 @@
         ]
       },
       contact:{title:"联系 · Contact"},
-      loc:"广东 · 深圳 / 广州",
-      modal:{back:"返回作品"}
+      loc:"广东 · 深圳 / 广州"
     },
     en: {
       title:"Zirui Zhang · Industrial Design × Computer Science — Portfolio",
-      nav:{about:"About",works:"Works",projects:"Projects",skills:"Skills",honors:"Activities",contact:"Contact"},
+      nav:{about:"About",projects:"Projects",skills:"Skills",honors:"Activities",contact:"Contact"},
       hero:{
         eyebrow:"South China Univ. of Technology · Industrial Design",
         nameEn:"Zirui Zhang",
         tag:"Design Mind <em>×</em> Code Craft",
         desc:"Perceive problems through interaction design, build answers through engineering and algorithms. Project member of the MetaEvo unmanned-farm world model, while researching multi-agent simulation and HCI at HAIDE Lab.",
-        ctaView:"View Works", ctaContact:"Contact",
+        ctaContact:"Contact",
         m1n:"MetaEvo", m1l:"Unmanned-farm world model · Project Member", m2n:"HAIDE", m2l:"HAIDE Lab multi-agent projects", m3n:"SCUT", m3l:"South China Univ. of Tech."
       },
       about:{
@@ -74,7 +72,6 @@
         c3n:"Research-driven", c3t:"From form and UX to algorithms and deployment"
       },
       projects:{title:"Projects"},
-      works:{title:"Design Works"},
       p1:{year:"2026 · Just kicked off",ongoing:"Just Launched",title:"Unmanned Farm · World Model & Intelligent Agent (MetaEvo)",role:"MetaEvo Team · Project Member",desc:"The project kicked off recently and is now in its early exploration and simulation-foundation phase — building high-fidelity, physics-accurate 3D scenes in UE and designing API interfaces that stream wind-speed and drift feedback to agents — progressing through simulation › world model › agent training, targeting top-tier conference papers."},
       p2:{year:"2026 – Ongoing",ongoing:"Ongoing",title:"Provenance · AI Value Formation Simulation",role:"HAIDE Lab · Project Member",desc:"Building a multi-agent simulation platform that visualizes the formation and evolution of AI values through traceable, configurable multi-stakeholder decision-making — supporting AI-governance research."},
       p3:{year:"2026 – Ongoing",ongoing:"Ongoing",title:"MAVIS · Controllable Multi-Agent Framework",role:"HAIDE Lab · Framework Contributor",desc:"Developing a controllable and interpretable multi-agent simulation framework that models complex human-AI interactions, traces agent decisions, and supports interpretable evaluation of AI-governance scenarios."},
@@ -97,23 +94,9 @@
         ]
       },
       contact:{title:"Contact"},
-      loc:"Guangdong · Shenzhen / Guangzhou",
-      modal:{back:"Back to works"}
+      loc:"Guangdong · Shenzhen / Guangzhou"
     }
   };
-
-  /* ---------- 作品数据 ---------- */
-  var WORKS = [
-    {img:"assets/projects/3d-jiegou.png", art:null,
-      zh:{cat:"三维设计 · SolidWorks",title:"《界·构》—— 造型与支撑结构",sub:"面的构成 × 结构与受力",tech:"SolidWorks · 造型推演",desc:"以“界·构”为主题，探讨空间边界与承重结构的关系：从面的构成入手完成造型推演，并对支撑架、底座等部件进行结构建模与装配，最终输出完整造型与三维打印可用的模型。"},
-      en:{cat:"3D Form · SolidWorks",title:"Boundary & Structure",sub:"Surface composition × structure",tech:"SolidWorks · form language",desc:"An exploration of spatial boundaries and load-bearing structure: form development from surface composition, modelling of brackets and base parts, assembled into a print-ready model."}},
-    {img:"assets/projects/pixelposter.jpg", art:null,
-      zh:{cat:"智能影像与动画",title:"《二进制与调色盘》",sub:"数字与色彩的诗意碰撞",tech:"动画 · 数字影像 · 调色",desc:"一部以“二进制与调色盘”为主题的影像动画：用编码语言与色彩语言构建叙事，探讨数字世界与感官体验的相互映射。"},
-      en:{cat:"Motion & Film",title:"Binary & Palette",sub:"A poetic clash of code and color",tech:"Animation · digital image · grading",desc:"A short film around “binary and palette”: narrating with coded and chromatic languages to explore how the digital maps onto sensory experience."}},
-    {img:"assets/projects/design-manual.png", art:null,
-      zh:{cat:"视觉设计基础",title:"视觉设计基础 ·《设计手册》",sub:"版式 · 网格 · 品牌视觉",tech:"网格系统 · 排版 · 品牌",desc:"系统的视觉设计基础训练：《设计手册》覆盖版式、网格系统、字体与色彩规范，并沉淀一套完整的视觉识别方法论。"},
-      en:{cat:"Visual Design",title:"Design Manual",sub:"Layout · grid · brand visual",tech:"Grid system · typography · brand",desc:"A foundational visual design manual covering layout, grid systems, typography and color specification — the methodology behind brand visual execution."}}
-  ];
 
   var lang = localStorage.getItem("portfolio-lang") || "zh";
   setLang(lang);
@@ -140,61 +123,11 @@
     /* 荣誉列表 */
     var hl = document.querySelector(".honors-list");
     if (hl){ hl.innerHTML = d.honors.items.map(function(x){ return "<li>"+x+"</li>"; }).join(""); }
-    /* 作品网格 */
-    renderWorks();
   }
 
   function resolve(key, d){
     return key.split(".").reduce(function(o,k){ return (o && o[k] != null) ? o[k] : null; }, d);
   }
-
-  function renderWorks(){
-    var grid = document.getElementById("worksGrid");
-    var d = I18N[lang];
-    grid.innerHTML = WORKS.map(function(w, idx){
-      var t = w[lang];
-      var media;
-      if (w.img){
-        media = '<img src="'+w.img+'" alt="'+t.title+'" loading="lazy">';
-      } else {
-        media = '<div class="cover-art gradient-'+w.art+'">'+
-                '<div class="art-grid"></div>'+
-                '<div><div class="art-title">'+t.title+'</div><div class="art-tag">'+t.sub+'</div></div>'+
-                '</div>';
-      }
-      return '<article class="work-card" data-idx="'+idx+'">'+
-              '<div class="w-media">'+media+'</div>'+
-              '<span class="w-category">'+t.cat+'</span>'+
-              '<h3 class="w-title">'+t.title+'</h3>'+
-              '<p class="w-sub">'+t.sub+'</p>'+
-             '</article>';
-    }).join("");
-
-    grid.querySelectorAll(".work-card").forEach(function(card){
-      card.addEventListener("click", function(){ openModal(+card.getAttribute("data-idx")); });
-    });
-  }
-
-  /* ---------- modal ---------- */
-  var backdrop = document.getElementById("modalBackdrop");
-  var openModal = function(idx){
-    var w = WORKS[idx], t = w[lang];
-    document.getElementById("modalImg").src = w.img || "";
-    document.getElementById("modalImg").style.display = w.img ? "block" : "none";
-    document.getElementById("modalCat").textContent = t.cat;
-    document.getElementById("modalTitle").textContent = t.title;
-    document.getElementById("modalDesc").textContent = t.desc;
-    document.getElementById("modalTech").textContent = t.tech;
-    backdrop.hidden = false;
-    document.body.style.overflow = "hidden";
-  };
-  var closeModal = function(){
-    backdrop.hidden = true;
-    document.body.style.overflow = "";
-  };
-  document.getElementById("modalClose").addEventListener("click", closeModal);
-  backdrop.addEventListener("click", function(e){ if (e.target === backdrop) closeModal(); });
-  document.addEventListener("keydown", function(e){ if (e.key === "Escape") closeModal(); });
 
   /* ---------- mobile menu ---------- */
   var menuBtn = document.getElementById("menuBtn");
