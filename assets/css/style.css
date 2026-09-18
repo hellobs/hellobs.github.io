@@ -122,13 +122,13 @@ em{font-family:var(--serif);font-style:italic;color:var(--accent)}
 .p-tech{font-family:var(--mono);font-size:.78rem;color:var(--accent-2);margin-top:8px;letter-spacing:.02em}
 
 /* ---------- skills ---------- */
-.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
-.skill-block{border:1px solid var(--line);border-radius:15px;padding:24px;background:var(--paper);
-  border-top:1px solid #fff;box-shadow:0 6px 20px rgba(120,90,40,.05);transition:transform .3s ease,box-shadow .3s ease}
-.skill-block:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(60,40,15,.08)}
-.sk-no{font-family:var(--serif);font-style:italic;color:var(--accent);font-size:1.8rem;display:block;line-height:1}
-.skill-block h4{font-family:var(--serif);font-size:1.15rem;font-weight:600;margin:12px 0 7px}
-.skill-block p{color:var(--ink-soft);font-size:.94rem;line-height:1.75}
+.skills-grid{display:flex;flex-direction:column;gap:14px}
+.skill-block{display:grid;grid-template-columns:64px 1fr;align-items:baseline;gap:18px;padding:20px 24px;
+  border:1px solid var(--line);border-radius:14px;background:var(--paper);
+  border-top:1px solid #fff;box-shadow:0 6px 20px rgba(120,90,40,.05)}
+.sk-no{font-family:var(--serif);font-style:italic;color:var(--accent);font-size:1.4rem;line-height:1;text-align:right}
+.skill-block h4{font-family:var(--serif);font-size:1.15rem;font-weight:600;margin-bottom:5px}
+.skill-block p{color:var(--ink-soft);font-size:.95rem;line-height:1.75}
 
 /* ---------- honors ---------- */
 .honors-list{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:13px 28px}
