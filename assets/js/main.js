@@ -16,7 +16,7 @@
       },
       about:{
         title:"关于 · About",
-        lead:"华南理工大学 工业设计实验班（信息与交互设计），辅修计算机科学与技术；MetaEvo 团队项目成员，参与无人农场世界模型与具身智能体；同时参与 HAIDE Lab 多智能体仿真与人机交互课题。",
+        lead:"华南理工大学 工业设计实验班（信息与交互设计），辅修计算机科学与技术；MetaEvo 团队项目成员，参与无人农场世界模型与智能体；同时参与 HAIDE Lab 多智能体仿真与人机交互课题。",
         tMajor:"主修", major:"工业设计 · 信息与交互设计",
         tMinor:"辅修", minor:"计算机科学与技术",
         tResearch:"科研", research:"MetaEvo Lab 无人农场世界模型 × HAIDE Lab 多智能体仿真",
@@ -25,7 +25,7 @@
         c3n:"研究驱动", c3t:"从造型、交互到算法与部署"
       },
       works:{title:"设计类作品 · Design Works"},
-      p1:{year:"2026 · 正式启动",ongoing:"刚启动",title:"无人农场 · 世界模型与具身智能体（MetaEvo）",role:"MetaEvo 团队 · 项目成员",desc:"项目于近期正式启动，当前处于初始探索与仿真底座搭建阶段：以 UE 搭建高逼真、符合物理规律的 3D 仿真场景，设计 API 接口输出风速、偏移度等反馈供智能体读取；分阶段推进「仿真 → 世界模型 → 智能体训练」，目标支撑顶会论文产出。"},
+      p1:{year:"2026 · 正式启动",ongoing:"刚启动",title:"无人农场 · 世界模型与智能体（MetaEvo）",role:"MetaEvo 团队 · 项目成员",desc:"项目于近期正式启动，当前处于初始探索与仿真底座搭建阶段：以 UE 搭建高逼真、符合物理规律的 3D 仿真场景，设计 API 接口输出风速、偏移度等反馈供智能体读取；分阶段推进「仿真 → 世界模型 → 智能体训练」，目标支撑顶会论文产出。"},
       p2:{year:"2026 – 在研",ongoing:"在研",title:"Provenance · AI 价值形成多智能体仿真平台",role:"HAIDE Lab · 项目成员",desc:"开发多智能体仿真平台，通过可溯源、可配置的多方决策，直观可视化 AI 价值（价值观）的形成与演化过程，支撑 AI 治理研究。"},
       p3:{year:"2026 – 在研",ongoing:"在研",title:"MAVIS · 可控可解释多智能体仿真框架",role:"HAIDE Lab · 框架开发",desc:"构建可控、可解释的多智能体仿真框架：建模复杂人机交互、追踪智能体决策轨迹，并为 AI 治理场景提供可解释的评估支持。"},
       p4:{year:"2026.3 – 进行中",ongoing:"进行中",title:"SRP · 低空无人机三维仿真训练平台",role:"设计学院 SRP 项目 · 核心开发者",desc:"基于 Unity 从零搭建低空无人机三维仿真训练平台，借助 AI 工具完成飞控、搜索救援、武器发射等模块；引入桥接等设计模式组织架构，并负责团队 Git 仓库搭建与维护。"},
@@ -62,7 +62,7 @@
       },
       about:{
         title:"About",
-        lead:"South China University of Technology — Industrial Design Experimental Class (Information & Interaction Design), minor in Computer Science; project member of the MetaEvo team on the unmanned-farm world model and embodied agents, while researching multi-agent simulation and HCI at HAIDE Lab.",
+        lead:"South China University of Technology — Industrial Design Experimental Class (Information & Interaction Design), minor in Computer Science; project member of the MetaEvo team on the unmanned-farm world model and agents, while researching multi-agent simulation and HCI at HAIDE Lab.",
         tMajor:"Major", major:"Industrial Design · Info & Interaction",
         tMinor:"Minor", minor:"Computer Science & Technology",
         tResearch:"Research", research:"MetaEvo Lab unmanned-farm world model × HAIDE Lab multi-agent simulation",
@@ -71,7 +71,7 @@
         c3n:"Research-driven", c3t:"From form and UX to algorithms and deployment"
       },
       works:{title:"Design Works"},
-      p1:{year:"2026 · Just kicked off",ongoing:"Just Launched",title:"Unmanned Farm · World Model & Embodied Agent (MetaEvo)",role:"MetaEvo Team · Project Member",desc:"The project kicked off recently and is now in its early exploration and simulation-foundation phase — building high-fidelity, physics-accurate 3D scenes in UE and designing API interfaces that stream wind-speed and drift feedback to agents — progressing through simulation › world model › agent training, targeting top-tier conference papers."},
+      p1:{year:"2026 · Just kicked off",ongoing:"Just Launched",title:"Unmanned Farm · World Model & Intelligent Agent (MetaEvo)",role:"MetaEvo Team · Project Member",desc:"The project kicked off recently and is now in its early exploration and simulation-foundation phase — building high-fidelity, physics-accurate 3D scenes in UE and designing API interfaces that stream wind-speed and drift feedback to agents — progressing through simulation › world model › agent training, targeting top-tier conference papers."},
       p2:{year:"2026 – Ongoing",ongoing:"Ongoing",title:"Provenance · AI Value Formation Simulation",role:"HAIDE Lab · Project Member",desc:"Building a multi-agent simulation platform that visualizes the formation and evolution of AI values through traceable, configurable multi-stakeholder decision-making — supporting AI-governance research."},
       p3:{year:"2026 – Ongoing",ongoing:"Ongoing",title:"MAVIS · Controllable Multi-Agent Framework",role:"HAIDE Lab · Framework Contributor",desc:"Developing a controllable and interpretable multi-agent simulation framework that models complex human-AI interactions, traces agent decisions, and supports interpretable evaluation of AI-governance scenarios."},
       p4:{year:"2026.3 – Ongoing",ongoing:"Ongoing",title:"SRP · Low-Altitude Drone Simulation Platform",role:"Core Developer · School of Design SRP",desc:"Built a 3D drone simulation training platform from scratch in Unity, prototyping flight control, search & rescue, and weapon modules with AI-assisted development; applied bridge and other design patterns to architecture and set up the team Git repository."},
