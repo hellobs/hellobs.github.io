@@ -25,7 +25,7 @@
         c2n:"技术实现", c2t:"计算机科学辅修打磨代码能力",
         c3n:"研究驱动", c3t:"从造型、交互到算法与部署"
       },
-      works:{title:"代表作品 · Selected Works"},
+      works:{title:"设计类作品 · Design Works"},
       p1:{year:"2026 – 在研",ongoing:"在研",title:"无人农场 · 世界模型与具身智能体（MetaEvo）",role:"MetaEvo 团队 · 项目成员",desc:"参与无人农场世界模型项目：以 UE 搭建高逼真、符合物理规律的 3D 仿真场景，设计 API 接口输出风速、偏移度等反馈供智能体读取；分阶段推进「仿真 → 世界模型 → 智能体训练」，目标支撑顶会论文产出。"},
       p2:{year:"2026 – 在研",ongoing:"在研",title:"Provenance · AI 价值形成多智能体仿真平台",role:"HAIDE Lab · 项目成员",desc:"开发多智能体仿真平台，通过可溯源、可配置的多方决策，直观可视化 AI 价值（价值观）的形成与演化过程，支撑 AI 治理研究。"},
       p3:{year:"2026 – 在研",ongoing:"在研",title:"MAVIS · 可控可解释多智能体仿真框架",role:"HAIDE Lab · 框架开发",desc:"构建可控、可解释的多智能体仿真框架：建模复杂人机交互、追踪智能体决策轨迹，并为 AI 治理场景提供可解释的评估支持。"},
@@ -72,7 +72,7 @@
         c2n:"Technical Craft", c2t:"CS minor sharpens coding ability",
         c3n:"Research-driven", c3t:"From form and UX to algorithms and deployment"
       },
-      works:{title:"Selected Works"},
+      works:{title:"Design Works"},
       p1:{year:"2026 – Ongoing",ongoing:"Ongoing",title:"Unmanned Farm · World Model & Embodied Agent (MetaEvo)",role:"MetaEvo Team · Project Member",desc:"Contributing to the unmanned-farm world-model project — building high-fidelity, physics-accurate 3D scenes in UE and designing API interfaces that stream wind-speed and drift feedback to agents — progressing through simulation › world model › agent training, targeting top-tier conference papers."},
       p2:{year:"2026 – Ongoing",ongoing:"Ongoing",title:"Provenance · AI Value Formation Simulation",role:"HAIDE Lab · Project Member",desc:"Building a multi-agent simulation platform that visualizes the formation and evolution of AI values through traceable, configurable multi-stakeholder decision-making — supporting AI-governance research."},
       p3:{year:"2026 – Ongoing",ongoing:"Ongoing",title:"MAVIS · Controllable Multi-Agent Framework",role:"HAIDE Lab · Framework Contributor",desc:"Developing a controllable and interpretable multi-agent simulation framework that models complex human-AI interactions, traces agent decisions, and supports interpretable evaluation of AI-governance scenarios."},
